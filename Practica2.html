@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    
+ 
+    <script src="Logica.js"></script>
+    <title>Practica #2</title>
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+        <a class="nav-link" href="Practica2.html">Practicas</a>
+        <a class="nav-link disabled">Projectos</a>
+      </nav>
+  </head>
+  <body>
+    <div id="TextoSuperior">
+      <h1 id="Texto">Practica #2</h1>
+      <h2 id="Texto2">Ingrese la operacion que quiera realizar de la Lista</h2>
+    </div>
+    <div id="Menu">
+      <ul>
+        <li id="1">
+          1- Leer dos numero y mostrar todos los enteros comprendidos entre
+          ellos
+        </li>
+        <li id="2">
+          2- Leer dos numeros y mostar todos los numeros terminados en 4
+          comprendidos entre ellos
+        </li>
+        <li id="3">
+          3- Leer un numero entero de tres digitos y mostrar todos los enteros
+          comprendidos entre 1 y cada uno de los digitos
+        </li>
+        <li id="4">
+          4- Mostrar en pantalla todos los enteros comprendidos entre 1 y 100
+        </li>
+        <li id="5">
+          5- Mostrar en pantalla todos los pares comprendidos entre 20 y 200
+        </li>
+        <li id="6">
+          6- Mostrar en pantalla todos los numeros terminados en 6 comprendidos
+          entre 25 y 205
+        </li>
+        <li id="7">
+          7- Leer un numero entero y determinar a cuanto es igual la suma de
+          todos los enteros comprendidos entre 1 y el numero leido
+        </li>
+        <li id="8">
+          8- Leer un numero entero de dos digitos y mostrar en pantalla todos
+          los numeros enteros comprendidos entre un numero y otro
+        </li>
+        <li id="9">
+          9- Leer un numero entero de 3 digitos y determinar si tiene el digito
+          1
+        </li>
+        <li id="10">
+          10- Leer un entero y mostrar todos los multiplos de 5 comprendidos
+          entre 1 y el numero leido
+        </li>
+        <li id="11">11- Mostrar en pantalla los primeros 20 multiplos de 3</li>
+        <li id="12">
+          12-Leer un numero entero de 3 digitos y determinar si el primer digito
+          es igual al ultimo
+        </li>
+        <li id="13">
+          13- Leer un numero entero de 3 digitos y determinar cuantos digitos
+          primos tiene
+        </li>
+        <li id="14">
+          14- Leer un numero entero de tres digitos y determinar cuantos digitos
+          pares tiene
+        </li>
+        <li id="15">
+          15-Leer un numero entero de tres digitos y
+          determinar si alguno de sus digitos es igual a la suma de los otros 2
+        </li>
+        <li id="16">
+          16- Leer un numero entero de 4 digitos y determinar a cuanto es igual
+          la suma de sus digitos
+        </li>
+        <li id="17">
+          17- Leer un numero entero de 4 digitos y determinar cuantos digitos
+          pares tiene
+        </li>
+        <li id="18">
+          18- Leer un numero entero menor que 50 y positivo y determinar si es
+          un numero primo
+        </li>
+        <li id="19">
+          19- Leer un numero entero de 5 digitos y determinar si es un numero
+          capicuo. Ej. 15651,59895
+        </li>
+        <li id="20">
+          20- Leer un numero entero de cuatro digito y determinar si el segundo
+          digito es igual al penultimo
+        </li>
+        <li id="21">21- Leer un numeor entero y determina si es igual a 10</li>
+        <li id="22">
+          22- Leer un numero entero y determinar si es multiplo de 7
+        </li>
+      </ul>
+    </div>
+    <div id="SeleccioneOperacion">
+      <input type="text" id="TxtSeleccion" />
+      <button
+        id="Boton"
+        type="button"
+        class="btn btn-primary"
+        onclick="Programas()"
+      >
+        Ejecutar
+      </button>
+      <div id="Programa">
+        <h4>Programa ejecutandose</h4>
+        <!-- <input type="text" id="num1" /><br /><br /> -->
+        <!-- //<input type="text" id="num2" /><br /><br /> -->
+      </div>
+      <div id="DivResultado">
+        <textarea id="Resultado" name="comentarios" rows="10" cols="40">
+Escribe aquí tus comentarios</textarea
+        >
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+#TextoSuperior
+{
+text-align: center;
+color: white;
+
+
+background: slategray;
+
+
+}
+nav
+{
+    text-align: center;
+    text-transform: capitalize;
+  
+    text-shadow: 1em;
+    font-size: x-large;
+  
+
+    
+} 
+
+
+
+#SeleccioneOperacion
+{
+position: absolute;
+left: 50%;
+    transform: translatex(-50%);
+}
+
+#Resultado{
+
+    text-align: left;
+    
+}
